@@ -26,20 +26,20 @@ export default defineAppConfig({
     credits: `© ${new Date().getFullYear()} - All rights reserved.`,
     colorMode: false,
     links: [{
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://go.nuxt.com/discord',
+      'icon': 'i-simple-icons-linkedin',
+      'to': 'https://www.linkedin.com/in/philipprproksch/',
       'target': '_blank',
-      'aria-label': 'Nuxt on Discord'
+      'aria-label': 'LinkedIn'
     }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://go.nuxt.com/x',
+      'icon': 'i-simple-icons-instagram',
+      'to': 'https://instagram.com/philippproksch',
       'target': '_blank',
-      'aria-label': 'Nuxt on X'
+      'aria-label': 'Instagram'
     }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+      'to': 'https://github.com/prpcodes',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'GitHub'
     }]
   }
 })

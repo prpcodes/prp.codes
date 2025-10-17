@@ -11,13 +11,9 @@ defineProps<{
     :title="page.about.title"
     :description="page.about.description"
     :ui="{
-      container: '!p-0',
+      container: 'px-0 !pt-0 sm:gap-6 lg:gap-8',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
-      description: 'text-left mt-3 text-sm sm:text-md lg:text-sm text-muted'
+      description: 'text-left mt-3 text-sm sm:text-md lg:text-sm text-muted text-wrap'
     }"
   />
 </template>
-
-<style scoped>
-
-</style>

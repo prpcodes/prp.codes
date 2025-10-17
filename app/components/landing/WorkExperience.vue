@@ -10,7 +10,7 @@ defineProps<{
   <UPageSection
     :title="page.experience.title"
     :ui="{
-      container: '!p-0 gap-4 sm:gap-4',
+      container: 'px-0 !pt-0 sm:gap-6 lg:gap-8',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
       description: 'mt-2'
     }"
@@ -39,11 +39,10 @@ defineProps<{
               {{ experience.position }}
             </span>
             <div
-              class="inline-flex items-center gap-1"
+              class="font-medium"
               :style="{ color: experience.company.color }"
             >
-              <span class="font-medium">{{ experience.company.name }}</span>
-              <UIcon :name="experience.company.logo" />
+              {{ experience.company.name }}
             </div>
           </ULink>
         </Motion>
