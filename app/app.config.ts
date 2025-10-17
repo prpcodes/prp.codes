@@ -1,11 +1,10 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: '/images/avatar.jpg',
-      light: '/images/avatar.jpg',
+      src: '/avatar.jpg',
       alt: 'My profile picture'
     },
-    meetingLink: 'https://calendly.com/work-calendly/30min',
+    meetingLink: 'mailto:work@prp.codes',
     email: 'work@prp.codes',
     available: true
   },

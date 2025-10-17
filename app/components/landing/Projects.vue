@@ -6,7 +6,7 @@ defineProps<{
 }>()
 
 const { data: posts } = await useAsyncData('index-projects', () =>
-  queryCollection('projects').order('date', 'DESC').limit(3).all()
+  queryCollection('projects').all()
 )
 if (!posts.value) {
   throw createError({ statusCode: 404, statusMessage: 'projects not found', fatal: true })
@@ -36,32 +36,17 @@ if (!posts.value) {
         :in-view-options="{ once: true }"
       >
         <UBlogPost
-          orientation="horizontal"
-          variant="naked"
-          v-bind="post"
+          :title="post.title"
+          :description="post.description"
+          :image="post.image"
+          :date="post.date"
           :to="post.path"
+          orientation="horizontal"
+          variant="outline"
           :ui="{
-            root: 'group relative lg:items-start lg:flex ring-0 hover:ring-0',
-            body: '!px-0',
-            header: 'hidden'
+            header: 'h-full'
           }"
-        >
-          <template #footer>
-            <UButton
-              size="xs"
-              variant="link"
-              class="px-0 gap-0"
-              label="Read Article"
-            >
-              <template #trailing>
-                <UIcon
-                  name="i-lucide-arrow-right"
-                  class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
-                />
-              </template>
-            </UButton>
-          </template>
-        </UBlogPost>
+        />
       </Motion>
     </UBlogPosts>
   </UPageSection>

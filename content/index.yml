@@ -1,38 +1,28 @@
 seo:
   title: "Philipp R. Proksch - Fullstack Developer"
-  description: "Welcome to my portfolio! I'm Philipp R. Proksch, a Fullstack Developer based in Austria. I specialize in React/Vue frontends and Python backends for startups and growing companies."
+  description: "Welcome to my portfolio! I'm Philipp R. Proksch, a Fullstack Developer based in Austria. I specialize in Vue/Nuxt frontends and Python backends for startups and growing companies."
 title: "Hey, I'm Philipp a Fullstack Developer"
-description: "I specialize in React and Vue frontends with Python/Django backends, and I've recently focused on AI-powered applications - from recruiting platforms that match candidates to jobs, to marketing tools that analyze podcast content for targeted advertising."
+description: "I specialize in Vue and Nuxt frontends with Python/Django backends, and I've recently focused on AI-powered applications - from recruiting platforms that match candidates to jobs, to marketing tools that analyze podcast content for targeted advertising."
 hero:
   links:
     - label: "View My Work"
       to: "#experience"
       color: "neutral"
   images:
-    - src: /hero/random-1.avif
-      alt: Random Image 1
-    - src: /hero/random-2.avif
-      alt: Random Image 2
-    - src: /hero/random-3.avif
-      alt: Random Image 3
-    - src: /hero/random-4.avif
-      alt: Random Image 4
-    - src: /hero/random-5.avif
-      alt: Random Image 5
-    - src: /hero/random-6.avif
-      alt: Random Image 6
-    - src: /hero/random-7.avif
-      alt: Random Image 7
-    - src: /hero/random-8.avif
-      alt: Random Image 8
-    - src: /hero/random-9.avif
-      alt: Random Image 9
+    - src: /hero/podcast.png
+      alt: Podcast Marketing Tool
+    - src: /hero/recruiting.png
+      alt: Recruiting Platform
+    - src: /hero/website-1.png
+      alt: Consulting Website
+    - src: /hero/website-2.png
+      alt: Artist Portfolio
 about:
   title: "About Me"
   description: |
     I'm Philipp, a fullstack developer based in Austria with over 5 years of experience building web applications for startups and established companies.
 
-    I started with a technical apprenticeship in electrical systems before transitioning to software development in 2020. Since then, I've worked across the full stack - building responsive frontends with React and Vue, developing backends with Python and Django, and deploying on AWS infrastructure.
+    I started with a technical apprenticeship in electrical systems before transitioning to a fulltime software development role in 2022. Since then, I've worked across the full stack - building responsive frontends with React/Next and Vue/Nuxt, developing backends with Python and Django, and deploying on AWS infrastructure.
 
     Recently, I've focused on AI-powered applications. I built a recruiting platform that automates candidate-job matching and a podcast marketing tool that uses NLP to match products with relevant content. I enjoy projects where AI solves real business problems.
     At Shiftable, I work with clients across different industries building custom web applications. I handle the full development lifecycle - from architecture and coding to deployment.
@@ -53,6 +43,12 @@ experience:
         color: "#b05301"
     - position: "Operating Technician at"
       date: "2017 - 2022"
+      company:
+        name: "Wiener Netze"
+        url: "https://www.wienernetze.at"
+        color: "#bb005d"
+    - position: "Apprenticeship at"
+      date: "2013 - 2017"
       company:
         name: "Wiener Netze"
         url: "https://www.wienernetze.at"
