@@ -33,7 +33,6 @@ defineProps<{
           :title="post.title"
           :description="post.description"
           :image="post.image"
-          :date="post.date"
           orientation="horizontal"
           variant="outline"
           :ui="{
