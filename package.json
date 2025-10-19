@@ -9,7 +9,8 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "start": "node .output/server/index.mjs"
   },
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.6.2",
