@@ -22,10 +22,9 @@ about:
   description: |
     I'm Philipp, a fullstack developer based in Austria with over 5 years of experience building web applications for startups and established companies.
 
-    I started with a technical apprenticeship in electrical systems before transitioning to a fulltime software development role in 2022. Since then, I've worked across the full stack - building responsive frontends with React/Next and Vue/Nuxt, developing backends with Python and Django, and deploying on AWS infrastructure.
+    I started with a technical apprenticeship in electrical systems before transitioning to a fulltime software development role in 2022. Since then, I've worked across the full stack - building responsive frontends with React/Next or Vue/Nuxt, developing backends with Python and Django. For hosting, I mainly choose Docker and a good old VPS, you know, the boring way, but if the project needs it, I'm also familiar with serverless architectures.
 
-    Recently, I've focused on AI-powered applications. I built a recruiting platform that automates candidate-job matching and a podcast marketing tool that uses NLP to match products with relevant content. I enjoy projects where AI solves real business problems.
-    At Shiftable, I work with clients across different industries building custom web applications. I handle the full development lifecycle - from architecture and coding to deployment.
+    Recently, I've moved focus on AI-powered applications, so I built a recruiting platform that automates candidate-job matching and a podcast marketing tool that uses NLP to match products with relevant content. I enjoy projects where AI solves real business problems, instead of it being used just for hype.
 experience:
   title: Work Experience
   items:
@@ -38,7 +37,7 @@ experience:
     - position: "Fullstack Developer at"
       date: "2022 - 2023"
       company:
-        name: "BEYOND IT SOLUTIONS"
+        name: "BEYOND"
         url: "https://www.beyond-it-solutions.at"
         color: "#b05301"
     - position: "Operating Technician at"
@@ -56,3 +55,19 @@ experience:
 projects:
   title: "Latest Projects"
   description: "Some of my recent work"
+  items:
+  - title: AI Recruiting Platform
+    description: End-to-end recruitment automation platform. Aggregates job listings from multiple boards, processes candidate CVs through multiple channels, and uses machine learning to match candidates with positions. Includes full workflow management for recruitment teams.
+    image: /hero/recruiting.png
+
+  - title: Podcast Marketing Platform
+    description: Intelligent platform connecting brands with podcasts through AI-driven content analysis. Analyzes episode transcripts and matches them against product descriptions to recommend the most relevant advertising opportunities with confidence scoring.
+    image: /hero/podcast.png
+
+  - title: Artist Portfolio Website
+    description: Clean, image-focused portfolio showcasing contemporary visual art. Features responsive galleries, exhibition history, and artist statement. Optimized for high-resolution images with fast loading times across desktop and mobile devices.
+    image: /hero/website-2.png
+
+  - title: Business Consulting Website
+    description: Corporate website for Austrian consulting firm. Modern, professional design highlighting services, team expertise, and client success stories. Built with performance-first architecture ensuring quick load times and seamless navigation.
+    image: /hero/website-1.png

@@ -33,11 +33,11 @@ defineProps<{
           delay: 0.1
         }"
       >
-        <img
+        <NuxtImg
           class="size-32 ring ring-default ring-offset-3 ring-offset-(--ui-bg) rounded-full"
           :src="global.picture?.src!"
           :alt="global.picture?.alt!"
-        >
+        />
       </Motion>
     </template>
 
@@ -104,7 +104,6 @@ defineProps<{
           v-if="page.hero.links"
           class="flex items-center gap-2"
         >
-          <UButton v-bind="page.hero.links[0]" />
           <UButton
             :color="global.available ? 'success' : 'error'"
             variant="ghost"

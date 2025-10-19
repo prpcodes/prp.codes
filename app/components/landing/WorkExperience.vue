@@ -8,6 +8,7 @@ defineProps<{
 
 <template>
   <UPageSection
+    id="experience"
     :title="page.experience.title"
     :ui="{
       container: 'px-0 !pt-0 sm:gap-6 lg:gap-8',

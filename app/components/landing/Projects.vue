@@ -15,6 +15,7 @@ if (!posts.value) {
 
 <template>
   <UPageSection
+    id="projects"
     :title="page.projects.title"
     :description="page.projects.description"
     :ui="{
@@ -28,7 +29,7 @@ if (!posts.value) {
       class="gap-4 lg:gap-y-4"
     >
       <Motion
-        v-for="(post, index) in posts"
+        v-for="(post, index) in page.projects.items"
         :key="index"
         :initial="{ opacity: 0, transform: 'translateY(10px)' }"
         :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
@@ -40,7 +41,6 @@ if (!posts.value) {
           :description="post.description"
           :image="post.image"
           :date="post.date"
-          :to="post.path"
           orientation="horizontal"
           variant="outline"
           :ui="{
