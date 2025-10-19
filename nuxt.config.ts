@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     'motion-v/nuxt',
     '@nuxt/scripts',
-    '@nuxt/test-utils'
+    '@nuxt/test-utils',
+    '@nuxtjs/plausible'
   ],
 
   devtools: {
@@ -36,5 +37,9 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  plausible: {
+    ignoredHostnames: ['localhost']
   }
 })
