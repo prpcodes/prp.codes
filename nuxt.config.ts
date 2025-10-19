@@ -40,6 +40,7 @@ export default defineNuxtConfig({
   },
 
   plausible: {
-    proxy: true
+    proxy: true,
+    apiHost: 'https://analytics.prp.codes'
   }
 })
