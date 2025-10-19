@@ -40,6 +40,6 @@ export default defineNuxtConfig({
   },
 
   plausible: {
-    ignoredHostnames: ['localhost']
+    proxy: true
   }
 })
