@@ -4,13 +4,6 @@ import type { IndexCollectionItem } from '@nuxt/content'
 defineProps<{
   page: IndexCollectionItem
 }>()
-
-const { data: posts } = await useAsyncData('index-projects', () =>
-  queryCollection('projects').all()
-)
-if (!posts.value) {
-  throw createError({ statusCode: 404, statusMessage: 'projects not found', fatal: true })
-}
 </script>
 
 <template>
