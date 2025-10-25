@@ -6,6 +6,9 @@ FROM node:${NODE_VERSION} AS build
 # Set the working directory inside the container
 WORKDIR /app
 
+RUN corepack enable
+
+
 # Copy package.json and package-lock.json files to the working directory
 COPY ./package.json /app/
 COPY ./package-lock.json /app/
