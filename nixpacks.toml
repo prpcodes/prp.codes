@@ -1,0 +1,15 @@
+[phases.setup]
+nixPkgs = ["nodejs", "pnpm"]
+
+[phases.install]
+cmds = [
+    "pnpm config set supportedArchitectures.os linux",
+    "pnpm config set supportedArchitectures.cpu x64",
+    "pnpm install --frozen-lockfile --force"
+]
+
+[phases.build]
+cmds = ["pnpm run build"]
+
+[start]
+cmd = "node .output/server/index.mjs"
