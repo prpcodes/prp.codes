@@ -67,11 +67,11 @@ export default defineAppConfig({
         alt: 'Recruiting Platform'
       },
       {
-        src: '/hero/website - 1.png',
+        src: '/hero/website-1.png',
         alt: 'Consulting Website'
       },
       {
-        src: '/hero/website - 2.png',
+        src: '/hero/website-2.png',
         alt: 'Artist Portfolio'
       }
     ]
