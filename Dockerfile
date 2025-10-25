@@ -35,5 +35,9 @@ ENV NODE_ENV=production
 # Expose the port the application will run on
 EXPOSE 3000
 
+# Add healthcheck
+HEALTHCHECK --interval=60s --timeout=3s --start-period=5s --retries=3 \
+  CMD wget --no-verbose --tries=1 --spider http://localhost:3000/ || exit 1
+
 # Start the application
 CMD ["node","/app/server/index.mjs"]
