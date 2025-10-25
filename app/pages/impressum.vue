@@ -1,102 +1,134 @@
 <template>
   <UPage>
-    <UPageHero
-      title="Impressum"
-      orientation="horizontal"
-      :ui="{
-        container: 'lg:flex sm:flex-row items-center',
-        title: '!mx-0 text-left',
-        description: '!mx-0 text-left'
-      }"
-    />
-    <UPageSection
-      :ui="{
-        container: '!pt-0'
-      }"
-    >
-      <p>
-        Philipp Rupert Proksch<br>
-        Harmannsdorf 35,<br>
-        3713 Harmannsdorf,<br>
-        Austria<br>
-      </p>
-      <div>
-        <p><b>Email:</b> work@prp.codes </p>
-        <p><b>Business Activity:</b> IT Services </p>
-        <p><b>FBN:</b> 657024m </p>
-        <p><b>GISA:</b> 38551949 </p>
-        <p><b>Authority according to ECG:</b> Bezirkshauptmannschaft y Horn</p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">
-          1. Supervisory Authority & Trade Authority
-        </h2>
-        <p>Bezirkshauptmannschaft Horn</p>
-        <p>Website: www.noe.gv.at</p>
-        <p>Address: Frauenhofner Straße 2, 3580 Horn, Austria</p>
-        <p>Professional Designation: Software Services</p>
-        <p>Country of Authorization: Austria</p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">
-          2. Data Protection Officer & Data Protection Authority
-        </h2>
-        <p>Data Protection Representative: Philipp Rupert Proksch</p>
-        <p>Data Protection Authority Email: dsb@dsb.gv.at</p>
-        <p>Phone: 01 234/56789</p>
-        <p>Data Protection Authority Imprint: www.dsb.gv.at/kontakt/impressum-copyright</p>
-        <p>Contact: Austrian Data Protection Authority, Barichgasse 40-42, 1030 Vienna, Austria</p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">
-          3. EU Dispute Resolution
-        </h2>
-        <p>In accordance with the Regulation on Online Dispute Resolution in Consumer Matters (ODR Regulation), we would like to inform you about the Online Dispute Resolution platform (OS platform). Consumers have the option to submit complaints to the Online Dispute Resolution platform of the European Commission at www.ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE. The necessary contact details can be found above in our imprint. However, we would like to point out that we are not willing or obligated to participate in dispute resolution proceedings before a consumer arbitration board.</p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">
-          4. Liability for Content of this Website
-        </h2>
-        <p>We continuously develop the content of this website and strive to provide correct and current information. Unfortunately, we cannot assume liability for the correctness of all content on this website, especially for content provided by third parties. As a service provider, we are not obligated to monitor the information you transmit or store, or to investigate circumstances that indicate illegal activity. Our obligations to remove information or block the use of information under general laws due to court or official orders remain unaffected even if we are not responsible. If you notice problematic or illegal content, please contact us immediately so that we can remove the illegal content. You can find the contact details on the top of this page.</p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">
-          5. Liability for Links on this Website
-        </h2>
-        <p>Our website contains links to other websites for whose content we are not responsible. We are not liable for linked websites, as we had and have no knowledge of illegal activities, such illegalities have not come to our attention, and we would remove links immediately if we become aware of any illegalities. If you notice illegal links on our website, please contact us. You can find the contact details on the top of this page.</p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">
-          6. Copyright Notice
-        </h2>
-        <p>All content on this website (images, photos, texts, videos) is subject to copyright. Please ask us before distributing, reproducing, or using the content of this website, such as republishing it on other websites. If necessary, we will legally pursue unauthorized use of parts of our site's content. If you find content on this website that violates copyright, please contact us. You can find the contact details on the top of this page.</p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">
-          7. Image Credits
-        </h2>
-        <p>The images, photos, and graphics on this website are protected by copyright.</p>
-        <p>Image rights belong to:</p>
-        <ul class="list-disc list-inside">
-          <li>Philip Rupert Proksch</li>
-          <li>Unsplash.com (see individual image credits)</li>
-          <li>Undraw.co (see individual image credits)</li>
-        </ul>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold">
-          8. Central Contact Point according to the Digital Services Act (DSA)
-        </h2>
-        <p>Email: rtr@rtr.at</p>
-        <p>Phone Number: +43 1 58058-0</p>
-        <p>Languages: German</p>
-        <p>Address:</p>
-        <p>Rundfunk und Telekom Regulierungs-GmbH</p>
-        <p>Mariahilfer Straße 77-79, 1060 Vienna</p>
-        <p>Austria</p>
-      </div>
-      <div>
-        <p>Last updated: October 18, 2025</p>
+    <UPageHero title="Impressum" orientation="horizontal" :ui="{
+      container: 'lg:flex sm:flex-row items-center',
+      title: '!mx-0 text-left',
+      description: '!mx-0 text-left'
+    }" />
+    <UPageSection :ui="{
+      container: '!pt-0'
+    }">
+      <div class="space-y-6">
+        <div>
+          <h2 class="text-xl font-semibold mb-3">
+            Medieninhaber und Herausgeber
+          </h2>
+          <p>
+            Philipp Rupert Proksch<br>
+            Harmannsdorf 35<br>
+            3713 Harmannsdorf<br>
+            Österreich
+          </p>
+          <p class="mt-2">
+            <strong>E-Mail:</strong> work@prp.codes
+          </p>
+          <p><strong>Geschäftstätigkeit:</strong> IT Services</p>
+          <p><strong>Firmenbuchnummer:</strong> 657024m</p>
+          <p><strong>GISA-Zahl:</strong> 38551949</p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-semibold mb-3">
+            Aufsichtsbehörde
+          </h2>
+          <p>Bezirkshauptmannschaft Horn</p>
+          <p>Frauenhofner Straße 2, 3580 Horn, Österreich</p>
+          <p>
+            Website: <a href="https://www.noe.gv.at" target="_blank"
+              class="text-blue-600 hover:underline">www.noe.gv.at</a>
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-semibold mb-3">
+            EU-Streitschlichtung
+          </h2>
+          <p>
+            Gemäß der Verordnung über die Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung)
+            informieren wir Sie über die Plattform zur Online-Streitbeilegung (OS-Plattform). Verbraucher haben die
+            Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der Europäischen Kommission zu richten
+            unter <a href="http://www.ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE"
+              target="_blank"
+              class="text-blue-600 hover:underline">www.ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE</a>.
+            Die erforderlichen Kontaktdaten finden Sie oben in unserem Impressum. Wir möchten jedoch darauf hinweisen,
+            dass wir nicht bereit oder verpflichtet sind, an Streitbeilegungsverfahren vor einer
+            Verbraucherschlichtungsstelle teilzunehmen.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-semibold mb-3">
+            Haftung für Inhalte dieser Website
+          </h2>
+          <p>
+            Wir entwickeln die Inhalte dieser Website kontinuierlich weiter und bemühen uns, korrekte und aktuelle
+            Informationen bereitzustellen. Leider können wir keine Haftung für die Richtigkeit aller Inhalte auf dieser
+            Website übernehmen, insbesondere nicht für Inhalte, die von Dritten bereitgestellt werden. Als
+            Dienstanbieter sind wir nicht verpflichtet, die von Ihnen übermittelten oder gespeicherten Informationen zu
+            überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Unsere
+            Verpflichtungen zur Entfernung von Informationen oder zur Sperrung der Nutzung von Informationen nach
+            allgemeinen Gesetzen aufgrund von Gerichts- oder Behördenanordnungen bleiben unberührt, auch wenn wir nicht
+            verantwortlich sind. Wenn Sie problematische oder rechtswidrige Inhalte bemerken, kontaktieren Sie uns bitte
+            umgehend, damit wir die rechtswidrigen Inhalte entfernen können. Die Kontaktdaten finden Sie oben auf dieser
+            Seite.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-semibold mb-3">
+            Haftung für Links auf dieser Website
+          </h2>
+          <p>
+            Unsere Website enthält Links zu anderen Websites, deren Inhalte wir nicht zu verantworten sind. Wir
+            übernehmen keine Haftung für verlinkte Websites, da uns rechtswidrige Aktivitäten nicht bekannt waren und
+            sind, solche Rechtswidrigkeiten uns nicht aufgefallen sind und wir Links sofort entfernen würden, wenn wir
+            von etwaigen Rechtswidrigkeiten erfahren. Wenn Sie rechtswidrige Links auf unserer Website bemerken,
+            kontaktieren Sie uns bitte. Die Kontaktdaten finden Sie oben auf dieser Seite.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-semibold mb-3">
+            Urheberrechtshinweis
+          </h2>
+          <p>
+            Alle Inhalte dieser Website (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht. Bitte fragen Sie
+            uns, bevor Sie Inhalte dieser Website verbreiten, reproduzieren oder verwenden, z.B. um sie auf anderen
+            Websites erneut zu veröffentlichen. Gegebenenfalls werden wir die unbefugte Nutzung von Teilen der Inhalte
+            unserer Website rechtlich verfolgen. Wenn Sie Inhalte auf dieser Website finden, die gegen das Urheberrecht
+            verstoßen, kontaktieren Sie uns bitte. Die Kontaktdaten finden Sie oben auf dieser Seite.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-semibold mb-3">
+            Bildnachweise
+          </h2>
+          <p>Die Bilder, Fotos und Grafiken auf dieser Website sind urheberrechtlich geschützt.</p>
+          <p>Die Bildrechte liegen bei:</p>
+          <ul class="list-disc list-inside">
+            <li>Philip Rupert Proksch</li>
+            <li>Unsplash.com (siehe einzelne Bildnachweise)</li>
+            <li>Undraw.co (siehe einzelne Bildnachweise)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-semibold mb-3">
+            Zentrale Anlaufstelle gemäß dem Gesetz über digitale Dienstleistungen (DSA)
+          </h2>
+          <p>E-Mail: rtr@rtr.at</p>
+          <p>Telefonnummer: +43 1 58058-0</p>
+          <p>Sprachen: Deutsch</p>
+          <p>Adresse:</p>
+          <p>Rundfunk und Telekom Regulierungs-GmbH</p>
+          <p>Mariahilfer Straße 77-79, 1060 Wien</p>
+          <p>Österreich</p>
+        </div>
+
+        <div>
+          <p>Letzte Aktualisierung: 18. Oktober 2025</p>
+        </div>
       </div>
     </UPageSection>
   </UPage>
