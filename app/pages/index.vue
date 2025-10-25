@@ -1,30 +1,19 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('index', async () => {
-  const result = await queryCollection('index').first()
-  return result
-})
-
-if (!page.value) {
-  throw createError({
-    statusCode: 404,
-    statusMessage: 'Page not found',
-    fatal: true
-  })
-}
+const { seo } = useAppConfig()
 
 useSeoMeta({
-  title: page.value?.seo.title || page.value?.title,
-  ogTitle: page.value?.seo.title || page.value?.title,
-  description: page.value?.seo.description || page.value?.description,
-  ogDescription: page.value?.seo.description || page.value?.description
+  title: seo.title,
+  ogTitle: seo.title,
+  description: seo.description,
+  ogDescription: seo.description
 })
 </script>
 
 <template>
-  <UPage v-if="page">
-    <LandingHero :page />
-    <LandingAbout :page />
-    <LandingWorkExperience :page />
-    <LandingProjects :page />
+  <UPage>
+    <LandingHero />
+    <LandingAbout />
+    <LandingWorkExperience />
+    <LandingProjects />
   </UPage>
 </template>

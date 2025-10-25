@@ -1,19 +1,27 @@
 <template>
   <UPage>
-    <UPageHero title="Data Protection" orientation="horizontal" :ui="{
-      container: 'lg:flex sm:flex-row items-center',
-      title: '!mx-0 text-left',
-      description: '!mx-0 text-left'
-    }" />
-    <UPageSection :ui="{
-      container: '!pt-0'
-    }">
+    <UPageHero
+      title="Data Protection"
+      orientation="horizontal"
+      :ui="{
+        container: 'lg:flex sm:flex-row items-center',
+        title: '!mx-0 text-left',
+        description: '!mx-0 text-left'
+      }"
+    />
+    <UPageSection
+      :ui="{
+        container: '!pt-0'
+      }"
+    >
       <div>
         <h2 class="text-xl font-semibold">
           1. General Information on Data Processing
         </h2>
-        <p>The protection of your personal data is important to us. We process your data exclusively on the basis of
-          legal provisions (GDPR, TKG).</p>
+        <p>
+          The protection of your personal data is important to us. We process your data exclusively on the basis of
+          legal provisions (GDPR, TKG).
+        </p>
       </div>
       <div>
         <h2 class="text-xl font-semibold">
@@ -52,16 +60,20 @@
           4. Cookies and Web Analytics
         </h2>
         <p>We do not use cookies.</p>
-        <p>We collect and analyze information about how users interact with our website. This information helps us
+        <p>
+          We collect and analyze information about how users interact with our website. This information helps us
           improve our website and provide a better user experience. The data collected is anonymized and does not
-          identify individual users.</p>
+          identify individual users.
+        </p>
       </div>
       <div>
         <h2 class="text-xl font-semibold">
           5. Hosting
         </h2>
-        <p>This website is hosted by a hosting provider. The host automatically stores information in server log files
-          that your browser automatically transmits. This includes:</p>
+        <p>
+          This website is hosted by a hosting provider. The host automatically stores information in server log files
+          that your browser automatically transmits. This includes:
+        </p>
         <ul class="list-disc list-inside">
           <li>Browser type and version</li>
           <li>Operating system used</li>
@@ -70,8 +82,10 @@
           <li>Time of server request</li>
           <li>IP address</li>
         </ul>
-        <p>This data is not combined with other data sources. Collection of this data is based on Art. 6(1)(f) GDPR
-          (legitimate interest in the technical provision of the website).</p>
+        <p>
+          This data is not combined with other data sources. Collection of this data is based on Art. 6(1)(f) GDPR
+          (legitimate interest in the technical provision of the website).
+        </p>
       </div>
       <div>
         <p>Last updated: October 18, 2025</p>

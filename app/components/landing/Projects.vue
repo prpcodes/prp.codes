@@ -1,16 +1,12 @@
 <script setup lang="ts">
-import type { IndexCollectionItem } from '@nuxt/content'
-
-defineProps<{
-  page: IndexCollectionItem
-}>()
+const { projects } = useAppConfig()
 </script>
 
 <template>
   <UPageSection
     id="projects"
-    :title="page.projects.title"
-    :description="page.projects.description"
+    :title="projects.title"
+    :description="projects.description"
     :ui="{
       container: 'px-0 !pt-0 sm:gap-4 lg:gap-4',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
@@ -22,7 +18,7 @@ defineProps<{
       class="gap-4 lg:gap-y-4"
     >
       <Motion
-        v-for="(post, index) in page.projects.items"
+        v-for="(post, index) in projects.items"
         :key="index"
         :initial="{ opacity: 0, transform: 'translateY(10px)' }"
         :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"

@@ -1,13 +1,19 @@
 <template>
   <UPage>
-    <UPageHero title="Impressum" orientation="horizontal" :ui="{
-      container: 'lg:flex sm:flex-row items-center',
-      title: '!mx-0 text-left',
-      description: '!mx-0 text-left'
-    }" />
-    <UPageSection :ui="{
-      container: '!pt-0'
-    }">
+    <UPageHero
+      title="Impressum"
+      orientation="horizontal"
+      :ui="{
+        container: 'lg:flex sm:flex-row items-center',
+        title: '!mx-0 text-left',
+        description: '!mx-0 text-left'
+      }"
+    />
+    <UPageSection
+      :ui="{
+        container: '!pt-0'
+      }"
+    >
       <div class="space-y-6">
         <div>
           <h2 class="text-xl font-semibold mb-3">
@@ -34,8 +40,11 @@
           <p>Bezirkshauptmannschaft Horn</p>
           <p>Frauenhofner Straße 2, 3580 Horn, Österreich</p>
           <p>
-            Website: <a href="https://www.noe.gv.at" target="_blank"
-              class="text-blue-600 hover:underline">www.noe.gv.at</a>
+            Website: <a
+              href="https://www.noe.gv.at"
+              target="_blank"
+              class="text-blue-600 hover:underline"
+            >www.noe.gv.at</a>
           </p>
         </div>
 
@@ -47,9 +56,11 @@
             Gemäß der Verordnung über die Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung)
             informieren wir Sie über die Plattform zur Online-Streitbeilegung (OS-Plattform). Verbraucher haben die
             Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der Europäischen Kommission zu richten
-            unter <a href="http://www.ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE"
+            unter <a
+              href="http://www.ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE"
               target="_blank"
-              class="text-blue-600 hover:underline">www.ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE</a>.
+              class="text-blue-600 hover:underline"
+            >www.ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE</a>.
             Die erforderlichen Kontaktdaten finden Sie oben in unserem Impressum. Wir möchten jedoch darauf hinweisen,
             dass wir nicht bereit oder verpflichtet sind, an Streitbeilegungsverfahren vor einer
             Verbraucherschlichtungsstelle teilzunehmen.
