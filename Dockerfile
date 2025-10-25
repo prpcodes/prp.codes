@@ -1,4 +1,4 @@
-ARG NODE_VERSION=24.10.0
+ARG NODE_VERSION=22-alpine
 
 # Create build stage
 FROM node:${NODE_VERSION} AS build
@@ -9,18 +9,18 @@ WORKDIR /app
 RUN corepack enable
 
 
-# Copy package.json and package-lock.json files to the working directory
+# Copy package.json and pnpm-lock.yaml files to the working directory
 COPY ./package.json /app/
-COPY ./package-lock.json /app/
+COPY ./pnpm-lock.yaml /app/
 
 ## Install dependencies
-RUN npm install
+RUN pnpm install
 
 # Copy the rest of the application files to the working directory
 COPY . ./
 
 # Build the application
-RUN npm run build
+RUN pnpm run build
 
 # Create a new stage for the production image
 FROM node:${NODE_VERSION}

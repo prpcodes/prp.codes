@@ -38,8 +38,5 @@
   "resolutions": {
     "unimport": "4.1.1"
   },
-  "engines": {
-    "node": ">=20.19.0",
-    "npm": ">=10.0.0"
-  }
+  "packageManager": "pnpm@10.18.2"
 }
