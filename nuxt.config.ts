@@ -44,18 +44,8 @@ export default defineNuxtConfig({
     id: '0490f44f-39c6-4d51-8207-d7b60faee2ac',
     host: 'https://umami.p12h.com',
     autoTrack: true,
-    // enabled: false,
-    // useDirective: true,
     ignoreLocalhost: true,
-    // domains: ['cool-site.app', 'my-space.site'],
-    // urlOptions: {
-    //   trailingSlash: 'always',
-    //   excludeSearch: false,
-    //   excludeHash: false,
-    // },
     proxy: 'cloak',
     logErrors: true
-    // customEndpoint: '/my-custom-endpoint',
-    // tag: 'website-variation-123',
   }
 })

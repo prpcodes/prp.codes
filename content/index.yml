@@ -11,7 +11,7 @@ hero:
   images:
     - src: /hero/podcast.png
       alt: Podcast Marketing Tool
-    - src: /hero/recruiting.png
+    - src: /hero/recruiting.jpg
       alt: Recruiting Platform
     - src: /hero/website-1.png
       alt: Consulting Website
@@ -58,7 +58,7 @@ projects:
   items:
   - title: AI Recruiting Platform
     description: End-to-end recruitment automation platform. Aggregates job listings from multiple boards, processes candidate CVs through multiple channels, and uses machine learning to match candidates with positions. Includes full workflow management for recruitment teams.
-    image: /hero/recruiting.png
+    image: /hero/recruiting.jpg
 
   - title: Podcast Marketing Platform
     description: Intelligent platform connecting brands with podcasts through AI-driven content analysis. Analyzes episode transcripts and matches them against product descriptions to recommend the most relevant advertising opportunities with confidence scoring.
