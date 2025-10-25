@@ -1,0 +1,10 @@
+[phases.setup]
+nixPkgs = ["nodejs_20", "python311", "gcc", "gnumake", "pkg-config", "sqlite"]
+
+[phases.install]
+cmds = [
+  "npm install -g corepack@0.24.1",
+  "corepack enable",
+  "pnpm config set python python3",
+  "pnpm i --frozen-lockfile"
+]
