@@ -118,7 +118,7 @@
           <p>Die Bilder, Fotos und Grafiken auf dieser Website sind urheberrechtlich geschützt.</p>
           <p>Die Bildrechte liegen bei:</p>
           <ul class="list-disc list-inside">
-            <li>Philip Rupert Proksch</li>
+            <li>Philipp Rupert Proksch</li>
             <li>Unsplash.com (siehe einzelne Bildnachweise)</li>
             <li>Undraw.co (siehe einzelne Bildnachweise)</li>
           </ul>
