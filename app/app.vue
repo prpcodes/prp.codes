@@ -18,7 +18,7 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: 'Philipp R. Proksch| Fullstack Developer',
+  titleTemplate: 'Philipp R. Proksch | Fullstack Developer',
   ogImage: '/og-image-light.png',
   twitterImage: '/og-image-light.png',
   twitterCard: 'summary_large_image'
