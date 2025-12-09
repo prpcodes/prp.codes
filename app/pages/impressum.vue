@@ -21,30 +21,9 @@
           </h2>
           <p>
             Philipp Rupert Proksch<br>
-            Harmannsdorf 35<br>
-            3713 Harmannsdorf<br>
-            Österreich
           </p>
           <p class="mt-2">
             <strong>E-Mail:</strong> work@prp.codes
-          </p>
-          <p><strong>Geschäftstätigkeit:</strong> IT Services</p>
-          <p><strong>Firmenbuchnummer:</strong> 657024m</p>
-          <p><strong>GISA-Zahl:</strong> 38551949</p>
-        </div>
-
-        <div>
-          <h2 class="text-xl font-semibold mb-3">
-            Aufsichtsbehörde
-          </h2>
-          <p>Bezirkshauptmannschaft Horn</p>
-          <p>Frauenhofner Straße 2, 3580 Horn, Österreich</p>
-          <p>
-            Website: <a
-              href="https://www.noe.gv.at"
-              target="_blank"
-              class="text-blue-600 hover:underline"
-            >www.noe.gv.at</a>
           </p>
         </div>
 
@@ -138,7 +117,7 @@
         </div>
 
         <div>
-          <p>Letzte Aktualisierung: 18. Oktober 2025</p>
+          <p>Letzte Aktualisierung: 09. Dezember 2025</p>
         </div>
       </div>
     </UPageSection>
